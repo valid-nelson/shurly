@@ -1,22 +1,22 @@
-# Shurly
+# Shorturly
 
 Shurly is a simple URL shortener package for Node.js. It allows you to generate short URLs for long ones, and also expand short URLs back to their original form.
 
 ## Installation
 
-You can install Shurly via npm:
+You can install Shorturly via npm:
 
 ```bash
-npm install shurly
+npm install shorturly
 ```
 
 ## Usage
 
 ```javascript
-const Shurly = require('shurly');
+const Shorturly = require('shorturly');
 
 // Create a new instance of Shurly
-const shortener = new Shurly();
+const shortener = new Shorturly();
 
 // Shorten a long URL
 const originalUrl = 'https://www.example.com/very-long-url-to-be-shortened';
